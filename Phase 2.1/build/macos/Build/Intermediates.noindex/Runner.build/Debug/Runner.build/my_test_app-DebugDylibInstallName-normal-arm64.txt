@@ -1,1 +1,0 @@
-@rpath/my_test_app.debug.dylib
