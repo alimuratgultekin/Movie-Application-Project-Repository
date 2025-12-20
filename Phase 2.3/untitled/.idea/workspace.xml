@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d71b088-587a-4eb7-9b8f-03d75bf93f20" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/myapplication/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/myapplication/ui/theme/Color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/myapplication/ui/theme/Theme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/myapplication/ui/theme/Type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/test/java/com/example/myapplication/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../android/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../android/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/892b637c16d52470fb7b14b9d9897587.cache.dill.track.dill" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/8b4cf81de84a583e75d42b6312dbb4bb.cache.dill.track.dill" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/f6f17a035097ebe33ba7db3a38d0a9c1/_composite.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/f6f17a035097ebe33ba7db3a38d0a9c1/gen_dart_plugin_registrant.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/f6f17a035097ebe33ba7db3a38d0a9c1/gen_localizations.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/last_build_run.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Flutter Assemble.build/InputFileList-33CC111E2044C6BF0003C045-FlutterInputs-a3d017de65c4f5e14a73dfaba56ce352-resolved.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Flutter Assemble.build/OutputFileList-33CC111E2044C6BF0003C045-FlutterOutputs-591a85e4b33aca16048fc85f70cbdc8c-resolved.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Flutter Assemble.build/Script-33CC111E2044C6BF0003C045.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner-18c1723432283e0cc55f10a6dcfd9e02-VFS/all-product-headers.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Base.lproj/MainMenu-PartialInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/DerivedSources/Entitlements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/DerivedSources/GeneratedAssetSymbols-Index.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/DerivedSources/GeneratedAssetSymbols.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/DerivedSources/GeneratedAssetSymbols.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/DerivedSources/my_test_app-Swift.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/AppDelegate.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/AppDelegate.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/AppDelegate.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/AppDelegate.swiftconstvalues" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/AppDelegate.swiftdeps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/GeneratedPluginRegistrant.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/GeneratedPluginRegistrant.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/GeneratedPluginRegistrant.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/GeneratedPluginRegistrant.swiftconstvalues" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/GeneratedPluginRegistrant.swiftdeps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/MainFlutterWindow.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/MainFlutterWindow.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/MainFlutterWindow.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/MainFlutterWindow.swiftconstvalues" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/MainFlutterWindow.swiftdeps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/Runner-OutputFileMap.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/Runner-master-emit-module.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/Runner-master-emit-module.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/Runner-master.priors" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/Runner_const_extract_protocols.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/my_test_app-Swift.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/my_test_app.LinkFileList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/my_test_app.SwiftConstValuesFileList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/my_test_app.SwiftFileList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/my_test_app.abi.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/my_test_app.swiftdoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/my_test_app.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/my_test_app.swiftsourceinfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/my_test_app_dependency_info.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Script-3399D490228B24CF009A79C7.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/SwiftStdLibToolInputDependencies.dep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/assetcatalog_dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/assetcatalog_dependencies_thinned" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/assetcatalog_generated_info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/assetcatalog_generated_info.plist_thinned" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/assetcatalog_output/thinned/AppIcon.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/assetcatalog_output/thinned/Assets.car" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/assetcatalog_signature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/my_test_app-DebugDylibInstallName-normal-arm64.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/my_test_app-DebugDylibPath-normal-arm64.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/my_test_app-ExecutorLinkFileList-normal-arm64.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/my_test_app-all-non-framework-target-headers.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/my_test_app-all-target-headers.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/my_test_app-generated-files.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/my_test_app-own-target-headers.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/my_test_app-project-headers.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/my_test_app.DependencyMetadataFileList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/my_test_app.DependencyStaticMetadataFileList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/my_test_app.app.xcent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/my_test_app.app.xcent.der" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/my_test_app.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/386c5868b8dc968a42eae9452ce1ca4a.xcbuilddata/attachments/0b9c3c01bd063d3007d085025396a9d6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/386c5868b8dc968a42eae9452ce1ca4a.xcbuilddata/attachments/0c08608488aef961e842a2d5b670da32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/386c5868b8dc968a42eae9452ce1ca4a.xcbuilddata/attachments/14b5faab4aa658a9eac20de788c4159b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/386c5868b8dc968a42eae9452ce1ca4a.xcbuilddata/attachments/1a76453a290d8ec680268ec40f0d041b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/386c5868b8dc968a42eae9452ce1ca4a.xcbuilddata/attachments/4a4d8b323fb25206fc5fb1b1de712166" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/386c5868b8dc968a42eae9452ce1ca4a.xcbuilddata/attachments/67e76468a8cd78f03ef5535f8fd0ab00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/386c5868b8dc968a42eae9452ce1ca4a.xcbuilddata/attachments/8bba4233626f64a7ea772bb94a08a1a9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/386c5868b8dc968a42eae9452ce1ca4a.xcbuilddata/attachments/8dcd0d58330c44f70249b853ad12bfd1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/386c5868b8dc968a42eae9452ce1ca4a.xcbuilddata/attachments/a4a1e03a3cfd8a360f773b6825934668" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/386c5868b8dc968a42eae9452ce1ca4a.xcbuilddata/attachments/aa65de031649a24309322b0ad4f23b97" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/386c5868b8dc968a42eae9452ce1ca4a.xcbuilddata/attachments/b14678231d47e9ebdbd5f2ccbb00a827" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/386c5868b8dc968a42eae9452ce1ca4a.xcbuilddata/attachments/c06446650aa1fc06fd84b5c6d104e479" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/386c5868b8dc968a42eae9452ce1ca4a.xcbuilddata/attachments/d41d8cd98f00b204e9800998ecf8427e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/386c5868b8dc968a42eae9452ce1ca4a.xcbuilddata/attachments/dd1658b7275676660fb466feae65cfe1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/386c5868b8dc968a42eae9452ce1ca4a.xcbuilddata/attachments/fd8314defc70a8778956f026c0ddfd19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/386c5868b8dc968a42eae9452ce1ca4a.xcbuilddata/build-request.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/386c5868b8dc968a42eae9452ce1ca4a.xcbuilddata/description.msgpack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/386c5868b8dc968a42eae9452ce1ca4a.xcbuilddata/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/386c5868b8dc968a42eae9452ce1ca4a.xcbuilddata/target-graph.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/386c5868b8dc968a42eae9452ce1ca4a.xcbuilddata/task-store.msgpack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/0b9c3c01bd063d3007d085025396a9d6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/0c08608488aef961e842a2d5b670da32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/14b5faab4aa658a9eac20de788c4159b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/1a76453a290d8ec680268ec40f0d041b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/36dc99770585d74a69b8a12837c5ef3a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/4a4d8b323fb25206fc5fb1b1de712166" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/635908dc05ba551bc4aeb2ffd03ac02c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/67e76468a8cd78f03ef5535f8fd0ab00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/82a5649db99ee11eadd2c21e3e7dcc54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/8bba4233626f64a7ea772bb94a08a1a9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/8dcd0d58330c44f70249b853ad12bfd1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/9d8d6f33942d77fb4b2a44ec00b47892" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/a4a1e03a3cfd8a360f773b6825934668" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/a74915d89011f3d26d814e4b7fe3e357" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/b14678231d47e9ebdbd5f2ccbb00a827" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/ba8d121303c7bdd256a4a026d000cb55" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/c06446650aa1fc06fd84b5c6d104e479" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/d41d8cd98f00b204e9800998ecf8427e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/dd1658b7275676660fb466feae65cfe1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/f8abe9a4716e813a2895885270283ab9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/attachments/fd8314defc70a8778956f026c0ddfd19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/build-request.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/description.msgpack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/target-graph.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/3d59085849ed77d8e02cf9561dc0e52a.xcbuilddata/task-store.msgpack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/attachments/0b9c3c01bd063d3007d085025396a9d6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/attachments/0c08608488aef961e842a2d5b670da32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/attachments/14b5faab4aa658a9eac20de788c4159b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/attachments/1a76453a290d8ec680268ec40f0d041b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/attachments/4a4d8b323fb25206fc5fb1b1de712166" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/attachments/67e76468a8cd78f03ef5535f8fd0ab00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/attachments/82a5649db99ee11eadd2c21e3e7dcc54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/attachments/8bba4233626f64a7ea772bb94a08a1a9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/attachments/8dcd0d58330c44f70249b853ad12bfd1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/attachments/9d8d6f33942d77fb4b2a44ec00b47892" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/attachments/a4a1e03a3cfd8a360f773b6825934668" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/attachments/b14678231d47e9ebdbd5f2ccbb00a827" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/attachments/ba8d121303c7bdd256a4a026d000cb55" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/attachments/c06446650aa1fc06fd84b5c6d104e479" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/attachments/d41d8cd98f00b204e9800998ecf8427e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/attachments/dd1658b7275676660fb466feae65cfe1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/attachments/fd8314defc70a8778956f026c0ddfd19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/build-request.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/description.msgpack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/target-graph.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/87b1cd12175330b9b47c6ea3320c67f3.xcbuilddata/task-store.msgpack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/PIFCache/project/PROJECT@v11_mod=a929dc62b5391fb868ab1966e4d3dc1b_hash=18c1723432283e0cc55f10a6dcfd9e02plugins=1OJSG6M1FOV3XYQCBH7Z29RZ0FPR9XDE1-json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/PIFCache/target/TARGET@v11_hash=174b700cf4b71f88c6174cce26a46378-json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/PIFCache/target/TARGET@v11_hash=365b8248db40a9ce1deb63a7c93e02f0-json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/PIFCache/target/TARGET@v11_hash=ae8e777923fb91324939a7378b9c75e1-json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/PIFCache/workspace/WORKSPACE@v11_hash=05f06928b67b78099f5ec10361d33cfc_subobjects=a4ba36a1acac8a45f5853d7c00c4d967-json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/build.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/attachments/0b9c3c01bd063d3007d085025396a9d6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/attachments/0c08608488aef961e842a2d5b670da32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/attachments/14b5faab4aa658a9eac20de788c4159b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/attachments/1a76453a290d8ec680268ec40f0d041b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/attachments/4a4d8b323fb25206fc5fb1b1de712166" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/attachments/67e76468a8cd78f03ef5535f8fd0ab00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/attachments/82a5649db99ee11eadd2c21e3e7dcc54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/attachments/8bba4233626f64a7ea772bb94a08a1a9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/attachments/8dcd0d58330c44f70249b853ad12bfd1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/attachments/9d8d6f33942d77fb4b2a44ec00b47892" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/attachments/a4a1e03a3cfd8a360f773b6825934668" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/attachments/aa65de031649a24309322b0ad4f23b97" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/attachments/b14678231d47e9ebdbd5f2ccbb00a827" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/attachments/c06446650aa1fc06fd84b5c6d104e479" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/attachments/d41d8cd98f00b204e9800998ecf8427e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/attachments/dd1658b7275676660fb466feae65cfe1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/attachments/fd8314defc70a8778956f026c0ddfd19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/build-request.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/description.msgpack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/target-graph.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Intermediates.noindex/XCBuildData/d9f38b1d6f43b9ca4dc90ce4059838a9.xcbuilddata/task-store.msgpack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/.last_build_id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/App" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Resources/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Resources/flutter_assets/AssetManifest.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Resources/flutter_assets/AssetManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Resources/flutter_assets/FontManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Resources/flutter_assets/NOTICES.Z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Resources/flutter_assets/NativeAssetsManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Resources/flutter_assets/fonts/MaterialIcons-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Resources/flutter_assets/isolate_snapshot_data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Resources/flutter_assets/kernel_blob.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Resources/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Resources/flutter_assets/shaders/ink_sparkle.frag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Resources/flutter_assets/vm_snapshot_data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/A/App" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/A/Resources/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/A/Resources/flutter_assets/AssetManifest.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/A/Resources/flutter_assets/AssetManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/A/Resources/flutter_assets/FontManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/A/Resources/flutter_assets/NOTICES.Z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/A/Resources/flutter_assets/NativeAssetsManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/A/Resources/flutter_assets/fonts/MaterialIcons-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/A/Resources/flutter_assets/isolate_snapshot_data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/A/Resources/flutter_assets/kernel_blob.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/A/Resources/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/A/Resources/flutter_assets/shaders/ink_sparkle.frag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/A/Resources/flutter_assets/vm_snapshot_data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/Current/App" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/Current/Resources/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/Current/Resources/flutter_assets/AssetManifest.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/Current/Resources/flutter_assets/AssetManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/Current/Resources/flutter_assets/FontManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/Current/Resources/flutter_assets/NOTICES.Z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/Current/Resources/flutter_assets/NativeAssetsManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/Current/Resources/flutter_assets/fonts/MaterialIcons-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/Current/Resources/flutter_assets/isolate_snapshot_data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/Current/Resources/flutter_assets/kernel_blob.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/Current/Resources/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/Current/Resources/flutter_assets/shaders/ink_sparkle.frag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/App.framework/Versions/Current/Resources/flutter_assets/vm_snapshot_data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/FlutterMacOS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterAppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterAppLifecycleDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterBinaryMessenger.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterChannels.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterCodecs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterDartProject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterEngine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterHourFormat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterMacOS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterMacros.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterPlatformViews.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterPluginMacOS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterPluginRegistrarMacOS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterTexture.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterViewController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Resources/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Resources/PrivacyInfo.xcprivacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Resources/icudtl.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/FlutterMacOS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterAppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterAppLifecycleDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterBinaryMessenger.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterChannels.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterCodecs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterDartProject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterEngine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterHourFormat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterMacOS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterMacros.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterPlatformViews.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterPluginMacOS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterPluginRegistrarMacOS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterTexture.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterViewController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Resources/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Resources/PrivacyInfo.xcprivacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Resources/icudtl.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/FlutterMacOS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/Headers/FlutterAppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/Headers/FlutterAppLifecycleDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/Headers/FlutterBinaryMessenger.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/Headers/FlutterChannels.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/Headers/FlutterCodecs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/Headers/FlutterDartProject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/Headers/FlutterEngine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/Headers/FlutterHourFormat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/Headers/FlutterMacOS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/Headers/FlutterMacros.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/Headers/FlutterPlatformViews.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/Headers/FlutterPluginMacOS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/Headers/FlutterPluginRegistrarMacOS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/Headers/FlutterTexture.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/Headers/FlutterViewController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/Resources/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/Resources/PrivacyInfo.xcprivacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/Resources/icudtl.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/Current/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/App" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Resources/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Resources/flutter_assets/AssetManifest.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Resources/flutter_assets/AssetManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Resources/flutter_assets/FontManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Resources/flutter_assets/NOTICES.Z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Resources/flutter_assets/NativeAssetsManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Resources/flutter_assets/fonts/MaterialIcons-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Resources/flutter_assets/isolate_snapshot_data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Resources/flutter_assets/kernel_blob.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Resources/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Resources/flutter_assets/shaders/ink_sparkle.frag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Resources/flutter_assets/vm_snapshot_data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/A/App" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/A/Resources/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/A/Resources/flutter_assets/AssetManifest.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/A/Resources/flutter_assets/AssetManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/A/Resources/flutter_assets/FontManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/A/Resources/flutter_assets/NOTICES.Z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/A/Resources/flutter_assets/NativeAssetsManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/A/Resources/flutter_assets/fonts/MaterialIcons-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/A/Resources/flutter_assets/isolate_snapshot_data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/A/Resources/flutter_assets/kernel_blob.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/A/Resources/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/A/Resources/flutter_assets/shaders/ink_sparkle.frag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/A/Resources/flutter_assets/vm_snapshot_data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/A/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/Current/App" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/Current/Resources/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/Current/Resources/flutter_assets/AssetManifest.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/Current/Resources/flutter_assets/AssetManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/Current/Resources/flutter_assets/FontManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/Current/Resources/flutter_assets/NOTICES.Z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/Current/Resources/flutter_assets/NativeAssetsManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/Current/Resources/flutter_assets/fonts/MaterialIcons-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/Current/Resources/flutter_assets/isolate_snapshot_data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/Current/Resources/flutter_assets/kernel_blob.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/Current/Resources/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/Current/Resources/flutter_assets/shaders/ink_sparkle.frag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/Current/Resources/flutter_assets/vm_snapshot_data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/App.framework/Versions/Current/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/FlutterMacOS.framework/FlutterMacOS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/FlutterMacOS.framework/Resources/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/FlutterMacOS.framework/Resources/PrivacyInfo.xcprivacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/FlutterMacOS.framework/Resources/icudtl.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/FlutterMacOS.framework/Versions/A/FlutterMacOS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/FlutterMacOS.framework/Versions/A/Resources/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/FlutterMacOS.framework/Versions/A/Resources/PrivacyInfo.xcprivacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/FlutterMacOS.framework/Versions/A/Resources/icudtl.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/FlutterMacOS.framework/Versions/A/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/FlutterMacOS.framework/Versions/Current/FlutterMacOS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/FlutterMacOS.framework/Versions/Current/Resources/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/FlutterMacOS.framework/Versions/Current/Resources/PrivacyInfo.xcprivacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/FlutterMacOS.framework/Versions/Current/Resources/icudtl.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Frameworks/FlutterMacOS.framework/Versions/Current/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/MacOS/__preview.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/MacOS/my_test_app" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/MacOS/my_test_app.debug.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/PkgInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Resources/AppIcon.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Resources/Assets.car" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/Resources/Base.lproj/MainMenu.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.app/Contents/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.swiftmodule/Project/arm64-apple-macos.swiftsourceinfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.swiftmodule/arm64-apple-macos.abi.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.swiftmodule/arm64-apple-macos.swiftdoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Build/Products/Debug/my_test_app.swiftmodule/arm64-apple-macos.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/CompilationCache.noindex/generic/lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/CompilationCache.noindex/generic/v1.1/v3.actions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/CompilationCache.noindex/generic/v1.1/v3.actions.shared" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/CompilationCache.noindex/generic/v1.1/v8.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/CompilationCache.noindex/generic/v1.1/v8.data.shared" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/CompilationCache.noindex/generic/v1.1/v8.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/CompilationCache.noindex/generic/v1.1/v8.index.shared" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Logs/Build/LogStoreManifest.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Logs/Launch/LogStoreManifest.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Logs/Localization/LogStoreManifest.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Logs/Package/LogStoreManifest.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/Logs/Test/LogStoreManifest.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/Accessibility-13W90FX36H4F2.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/AppKit-1WHIH5B5680V8.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/Combine-15ZTWLFXBKVCR.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/CoreAudio-20IIQXJB85MP.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/CoreData-C47JKA3DJOHL.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/CoreFoundation-3PPT6YJD3TNVM.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/CoreGraphics-IHU8HGLM6Q4J.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/CoreImage-2N652O5WPLOWM.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/CoreMedia-27N2DA9MUEWTN.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/CoreText-3LHWTEBNLZL5C.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/CoreTransferable-N9ZQEREWDF8T.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/Darwin-2EWWHTCWERATC.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/DataDetection-28QZ7VJ3589I8.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/DeveloperToolsSupport-E9M0AT1PRJ6S.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/Dispatch-8XJKS9QBPSHR.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/Foundation-2JJ0R61ZH6GJ0.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/IOKit-1DOMI8B3P53RY.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/Metal-8K2E3QB8D6FE.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/OSLog-1PXRENS8EWYO0.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/ObjectiveC-297FD0LZ40UCZ.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/Observation-3D1NJ0UPZ7AJN.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/Accessibility-RCJSN2GG3RAR.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/Accessibility-RCJSN2GG3RAR.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/AppKit-2VI8NB39I5AT6.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/AppKit-2VI8NB39I5AT6.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/ApplicationServices-3NXEUUZF9JJBD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/ApplicationServices-3NXEUUZF9JJBD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/AvailabilityMacros-1R8AB8N4VAFAG.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/AvailabilityMacros-1R8AB8N4VAFAG.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CFNetwork-1PNPO1ORVQZLS.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CFNetwork-1PNPO1ORVQZLS.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CUPS-1HLHMKUB322XA.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CUPS-1HLHMKUB322XA.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/Cocoa-1MK6YYY84V08M.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/Cocoa-1MK6YYY84V08M.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/ColorSync-3EIM4S8RXNRVI.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/ColorSync-3EIM4S8RXNRVI.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreAudio-J9DSWC1670R6.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreAudio-J9DSWC1670R6.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreAudioTypes-11649WXSRCA0E.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreAudioTypes-11649WXSRCA0E.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreData-1KHK1L2CYC2N6.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreData-1KHK1L2CYC2N6.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreFoundation-16SA8WK3L6MQN.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreFoundation-16SA8WK3L6MQN.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreGraphics-1PSDCAYCIV3T9.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreGraphics-1PSDCAYCIV3T9.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreImage-39ZO87840M5PP.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreImage-39ZO87840M5PP.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreMedia-SHYM2JB41P4U.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreMedia-SHYM2JB41P4U.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreServices-39NCTJOEW7PQ2.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreServices-39NCTJOEW7PQ2.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreText-3FAL1B4J38DIR.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreText-3FAL1B4J38DIR.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreTransferable-27T896KGHFB3R.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreTransferable-27T896KGHFB3R.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreVideo-DBBGB2LXU3HG.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/CoreVideo-DBBGB2LXU3HG.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/Darwin-1FXX23EKWOBA9.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/Darwin-1FXX23EKWOBA9.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/DarwinFoundation-1W8U2OOUAA1YQ.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/DarwinFoundation-1W8U2OOUAA1YQ.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/DataDetection-R5W4QHNMPWVH.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/DataDetection-R5W4QHNMPWVH.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/DeveloperToolsSupport-3SUCMSK9ZS2JA.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/DeveloperToolsSupport-3SUCMSK9ZS2JA.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/DiskArbitration-3LBJF5I58QD8.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/DiskArbitration-3LBJF5I58QD8.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/Dispatch-R76HXUP80TVL.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/Dispatch-R76HXUP80TVL.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/FlutterMacOS-3MWRIXO1CNITG.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/FlutterMacOS-3MWRIXO1CNITG.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/Foundation-24LYWIP48SHNP.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/Foundation-24LYWIP48SHNP.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/IOKit-1IAL9NTK1TABA.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/IOKit-1IAL9NTK1TABA.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/IOSurface-26455DPS9NDS0.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/IOSurface-26455DPS9NDS0.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/ImageIO-2ZSF831VT29UB.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/ImageIO-2ZSF831VT29UB.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/MachO-20RPYVQSX341K.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/MachO-20RPYVQSX341K.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/Metal-1GCZV9N85NJOH.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/Metal-1GCZV9N85NJOH.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/OSLog-218FBXNFJGY61.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/OSLog-218FBXNFJGY61.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/ObjectiveC-1G8H182PQX3QE.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/ObjectiveC-1G8H182PQX3QE.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/OpenGL-H89XJT7GTCP.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/OpenGL-H89XJT7GTCP.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/QuartzCore-39A8LQKF980J1.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/QuartzCore-39A8LQKF980J1.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/Security-3QCVXOV25KK54.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/Security-3QCVXOV25KK54.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/Spatial-1JZLH83HN83CS.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/Spatial-1JZLH83HN83CS.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/SwiftShims-2IMTS4WWRU7VJ.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/SwiftShims-2IMTS4WWRU7VJ.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/SwiftUI-3DCHKT5UWXXCX.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/SwiftUI-3DCHKT5UWXXCX.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/SwiftUICore-86HIVXUC6WOA.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/SwiftUICore-86HIVXUC6WOA.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/Symbols-3KC1789KJFX94.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/Symbols-3KC1789KJFX94.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/TargetConditionals-1C41IB3E7JLP3.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/TargetConditionals-1C41IB3E7JLP3.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/UniformTypeIdentifiers-1OLJP4K3PLM48.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/UniformTypeIdentifiers-1OLJP4K3PLM48.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/XPC-T0ZXCAST7PE3.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/XPC-T0ZXCAST7PE3.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_float-19KE09ZDXQ6Q3.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_float-19KE09ZDXQ6Q3.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_intrinsics-19KE09ZDXQ6Q3.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_intrinsics-19KE09ZDXQ6Q3.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_inttypes-19KE09ZDXQ6Q3.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_inttypes-19KE09ZDXQ6Q3.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_iso646-19KE09ZDXQ6Q3.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_iso646-19KE09ZDXQ6Q3.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_limits-19KE09ZDXQ6Q3.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_limits-19KE09ZDXQ6Q3.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_stdarg-19KE09ZDXQ6Q3.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_stdarg-19KE09ZDXQ6Q3.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_stdatomic-19KE09ZDXQ6Q3.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_stdatomic-19KE09ZDXQ6Q3.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_stdbool-19KE09ZDXQ6Q3.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_stdbool-19KE09ZDXQ6Q3.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_stddef-19KE09ZDXQ6Q3.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_stddef-19KE09ZDXQ6Q3.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_stdint-19KE09ZDXQ6Q3.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_stdint-19KE09ZDXQ6Q3.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_tgmath-19KE09ZDXQ6Q3.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_Builtin_tgmath-19KE09ZDXQ6Q3.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_SwiftConcurrencyShims-2IMTS4WWRU7VJ.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_SwiftConcurrencyShims-2IMTS4WWRU7VJ.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/__wctype-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/__wctype-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_assert-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_assert-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_complex-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_complex-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_ctype-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_ctype-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_errno-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_errno-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_fenv-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_fenv-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_float-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_float-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_inttypes-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_inttypes-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_limits-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_limits-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_locale-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_locale-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_math-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_math-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_setjmp-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_setjmp-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_signal-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_signal-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_stdint-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_stdint-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_stdio-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_stdio-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_stdlib-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_stdlib-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_string-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_string-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_strings-20RPYVQSX341K.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_strings-20RPYVQSX341K.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_sys_select-1W8U2OOUAA1YQ.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_sys_select-1W8U2OOUAA1YQ.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_tgmath-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_tgmath-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_time-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_time-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_useconds_t-1W8U2OOUAA1YQ.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_useconds_t-1W8U2OOUAA1YQ.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_wchar-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_wchar-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_wctype-47SZ9A199RUD.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/_wctype-47SZ9A199RUD.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/alloca-20RPYVQSX341K.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/alloca-20RPYVQSX341K.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/gethostuuid-20RPYVQSX341K.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/gethostuuid-20RPYVQSX341K.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/launch-3T3BU4MASLMUM.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/launch-3T3BU4MASLMUM.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/libDER-26DYHF6GC6WWA.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/libDER-26DYHF6GC6WWA.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/libkern-2KQ0X67RTM1JF.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/libkern-2KQ0X67RTM1JF.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/mach-1W8U2OOUAA1YQ.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/mach-1W8U2OOUAA1YQ.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/netinet_in-1W8U2OOUAA1YQ.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/netinet_in-1W8U2OOUAA1YQ.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/nl_types-20RPYVQSX341K.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/nl_types-20RPYVQSX341K.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/os-2MV8OP7R98AN8.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/os-2MV8OP7R98AN8.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/os_availability-1R8AB8N4VAFAG.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/os_availability-1R8AB8N4VAFAG.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/os_availability_internal-1R8AB8N4VAFAG.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/os_availability_internal-1R8AB8N4VAFAG.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/os_object-2MV8OP7R98AN8.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/os_object-2MV8OP7R98AN8.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/os_workgroup-2MV8OP7R98AN8.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/os_workgroup-2MV8OP7R98AN8.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/pthread-20RPYVQSX341K.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/pthread-20RPYVQSX341K.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/ptrauth-19KE09ZDXQ6Q3.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/ptrauth-19KE09ZDXQ6Q3.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/ptrcheck-19KE09ZDXQ6Q3.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/ptrcheck-19KE09ZDXQ6Q3.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/runetype-20RPYVQSX341K.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/runetype-20RPYVQSX341K.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/simd-KY25Q80SBOHY.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/simd-KY25Q80SBOHY.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/sys_resource-20RPYVQSX341K.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/sys_resource-20RPYVQSX341K.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/sys_select-20RPYVQSX341K.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/sys_select-20RPYVQSX341K.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/sys_time-1W8U2OOUAA1YQ.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/sys_time-1W8U2OOUAA1YQ.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/sys_types-20RPYVQSX341K.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/sys_types-20RPYVQSX341K.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/sys_wait-20RPYVQSX341K.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/sys_wait-20RPYVQSX341K.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/unistd-20RPYVQSX341K.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/unistd-20RPYVQSX341K.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/uuid-1W8U2OOUAA1YQ.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/uuid-1W8U2OOUAA1YQ.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/xlocale-20RPYVQSX341K.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/P8OGRC8Y2571/xlocale-20RPYVQSX341K.pcm.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/QuartzCore-1ZQAW20O292O0.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/Session.modulevalidation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/Spatial-16SDO2QWMD1NX.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/Swift-1G36GP3D0DRBZ.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/SwiftOnoneSupport-39LJGPXACKRMS.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/SwiftUI-FGNA91QPFDB4.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/SwiftUICore-2Q7C9S0ANF5PP.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/Symbols-3F8WHRLXCHS2Z.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/System-OA9BJKH5PQG.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/UniformTypeIdentifiers-Q2A98CQKIQ8K.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/XPC-1LY5NN1U05VL0.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/_Builtin_float-74R7B61QVIAW.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/_Concurrency-YOTZG8741BHA.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/_StringProcessing-15EHZJX9OS2ZI.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/_errno-2YCFS45CJ7WIY.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/_math-36CF1IDOLNAWV.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/_signal-FMW2TOC6U594.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/_stdio-3KTA0ZBYSAZYF.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/_time-2QWA88RXPAPNG.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/modules.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/os-1TISCI6E33OXF.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/simd-2LA5H1L3C0AX3.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/sys_time-3TE5ZOME468TR.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/ModuleCache.noindex/unistd-6V2BRGU859MJ.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/SDKStatCaches.noindex/macosx15.5-24F74-8254517eb8b97d462ccbc072ba9094c9.sdkstatcache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/macos/info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/browse_movies_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/browse_movies_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/chat_group.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/models/chat_group.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/chat_groups_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/chat_groups_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/event.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/models/event.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/group_chat_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/group_chat_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/login_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/login_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/movie.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/models/movie.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/movie_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/movie_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/movie_detail_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/movie_detail_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/movie_list_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/movie_list_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/my_events_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/my_events_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/organize_event_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/organize_event_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/profile_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/profile_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/review_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/review_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/user.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/models/user.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/user_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/services/user_service.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../macos/Flutter/Flutter-Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../macos/Flutter/Flutter-Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../macos/Flutter/Flutter-Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../macos/Flutter/Flutter-Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../macos/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../macos/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../macos/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/../macos/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../windows/flutter/generated_plugins.cmake" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="376N6LUHpvJid6nVg8s6fvg9fFb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d71b088-587a-4eb7-9b8f-03d75bf93f20" name="Changes" comment="" />
+      <created>1766219384550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766219384550</updated>
+    </task>
+    <servers />
+  </component>
+</project>
