@@ -25,14 +25,14 @@ Our goal is to build a **complete social experience around movie watching — no
 
 ---
 
-## Planned Features
+## Planned Features 
 - Movie browsing and detailed pages (title, rating, cast, synopsis)  
 - Rate and comment on movies  
 - Chat groups for discussions  
 - Student-only sign-up (verified `.edu` emails)  
 - Search and filter by genre, rating, or trending  
-- Personal watchlist and favorites  
-
+- Personalized movie recommendations based on user activity
+- Firebase-backed authentication and data storage 
 ---
 
 ## Team Members
