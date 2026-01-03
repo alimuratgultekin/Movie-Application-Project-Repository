@@ -219,7 +219,6 @@ test/
   └── widget_test.dart         # Widget tests for UI components
 ```
 ## Team Members
-- **Ali Murat Gültekin**
 - **İsmail Sarp Erdem**
 - **Melisa Yağmur Karakurt**
 - **Mehmet Alper Canıtez**
